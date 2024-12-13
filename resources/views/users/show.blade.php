@@ -9,4 +9,6 @@
     <li>{{ $user->name }}</li>
     <li>{{ $user->email }}</li>
 </ul>
+
+<form action=""></form>
 @endsection

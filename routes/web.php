@@ -15,5 +15,5 @@ Route::get('/users/{id}', [UserController::class, 'show'])->name('users.show');
 // o {id} entre chaves mostra que estou passando um parâmetro dinâmico
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome');    
 });
